@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: rgb(172, 1, 1);">ALBARINTER tu banco Ciezano</h1>
+    <form action="">
+        <fieldset>
+
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre Completo:</label><br><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="n_doc">Numero de Documento (DNI, NIE, Pasaporte):</label><br><br>
+            <input type="number" id="numero" name="numero"><br><br>
+
+            <label for="genero">Género</label><br><br>
+            <input type="radio" id="masculino" name="masculino"> Masculino
+            <input type="radio" id="femenino" name="femenino"> Femenino <br><br>
+
+            <label for="fecha_nac">Fecha de Nacimiento: </label><br><br>
+            <input type="date" id="fecha_nac" name="fecha_nac"><br><br>
+
+            <label for="nacionalidad">Nacionalidad: </label><br><br>
+            <input type="text" id="nacionalidad" name="nacionalidad" placeholder="Española"><br><br>
+
+            <label for="estado">Estado Civil: </label><br><br>
+            <select name="estado" id="estado">
+                <option value="soltero">Seleccione una opción</option>
+                <option value="soltero">Soltero</option>
+                <option value="soltero">Casado</option>
+                <option value="soltero">Prefiero no decirlo</option>
+            </select> <br><br>
+
+            <label for="telefono">Telefono</label><br><br>
+            <input type="number" id="telefono" name="telefono"><br><br>
+
+            <label for="correo">Correo Electrónico: </label><br><br>
+            <input type="email" id="correo" name="correo"><br><br>
+
+            <label for="direccion">Dirección Completa: </label><br><br>
+            <input type="text" id="direccion" name="direccion"><br><br>
+
+            <label for="codigo_p">Código Postal:</label><br><br>
+            <input type="number" id="codigo_p" name="codigo_p" placeholder="30530"><br><br>
+
+            <label for="ciudad">Ciudad: </label><br><br>
+            <input type="text" id="ciudad" name="ciudad" placeholder="Cieza"><br><br>
+
+            <label for="provincia">Provincia/Estado: </label><br><br>
+            <input type="text" id="provincia" name="provincia" placeholder="Murcia"><br><br>
+
+        </fieldset>
+        <fieldset>
+
+            <legend>Informacion financiera</legend>
+
+            <label for="ingresos">Ingresos mensuales (EUR): </label><br><br>
+            <input type="text" id="ingresos" name="ingresos"><br><br>
+
+            <label for="ocupacion">Ocupacion: </label><br><br>
+            <input type="text" id="ocupacion" name="ocupacion"><br><br>
+
+            <label for="cuentas">¿Tienes otras cuentas bancarias?</label><br><br>
+            <input type="checkbox" id="cuentas" name="santander">Banco santander<br><br>
+            <input type="checkbox" id="cuentas" name="bilbao">Banco Bilbao Vizvaya<br><br>
+            <input type="checkbox" id="cuentas" name="abanca">Abanca<br><br>
+            <input type="checkbox" id="cuentas" name="otro">Otro<br><br>
+
+        </fieldset>
+        <fieldset>
+
+            <legend>Productos Bancarios</legend>
+
+            <label for="p_banc">¿Que productos bancarios te interesan?</label><br><br>
+            <input type="checkbox" id="p_banc" name="ahorros">Cuentas de Ahorros<br><br>
+            <input type="checkbox" id="p_banc" name="credito">Tarjeta de Crédito<br><br>
+            <input type="checkbox" id="p_banc" name="prestamo">Préstamo Personal<br><br>
+            <input type="checkbox" id="p_banc" name="inversion">Inversión inmobiliaria<br><br>
+            <input type="checkbox" id="p_banc" name="Bolsa">Bolsa<br><br>
+
+        </fieldset>
+
+        <label for="observaciones">Observaciones o Comentarios: </label><br><br>
+        <textarea id="observaciones" name="observaciones"></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
