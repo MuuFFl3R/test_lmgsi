@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="albarinter.css">
 </head>
 
 <body>
-    <h1 style="text-align: center; color: rgb(172, 1, 1);">ALBARINTER tu banco Ciezano</h1>
+    <div class="form-container">
+    <h1>ALBARINTER tu banco Ciezano</h1>
+    <h2>Registro de Cliente</h2>
     <form action="">
         <fieldset>
 
@@ -20,14 +23,14 @@
             <input type="number" id="numero" name="numero"><br><br>
 
             <label for="genero">Género</label><br><br>
-            <input type="radio" id="masculino" name="masculino"> Masculino
-            <input type="radio" id="femenino" name="femenino"> Femenino <br><br>
+            <input type="radio" id="masculino" name="genero"> Masculino
+            <input type="radio" id="femenino" name="genero"> Femenino <br><br>
 
             <label for="fecha_nac">Fecha de Nacimiento: </label><br><br>
             <input type="date" id="fecha_nac" name="fecha_nac"><br><br>
 
             <label for="nacionalidad">Nacionalidad: </label><br><br>
-            <input type="text" id="nacionalidad" name="nacionalidad" placeholder="Española"><br><br>
+            <input type="text" id="nacionalidad" name="nacionalidad" value="Española"><br><br>
 
             <label for="estado">Estado Civil: </label><br><br>
             <select name="estado" id="estado">
@@ -47,13 +50,13 @@
             <input type="text" id="direccion" name="direccion"><br><br>
 
             <label for="codigo_p">Código Postal:</label><br><br>
-            <input type="number" id="codigo_p" name="codigo_p" placeholder="30530"><br><br>
+            <input type="number" id="codigo_p" name="codigo_p" value="30530"><br><br>
 
             <label for="ciudad">Ciudad: </label><br><br>
-            <input type="text" id="ciudad" name="ciudad" placeholder="Cieza"><br><br>
+            <input type="text" id="ciudad" name="ciudad" value="Cieza"><br><br>
 
             <label for="provincia">Provincia/Estado: </label><br><br>
-            <input type="text" id="provincia" name="provincia" placeholder="Murcia"><br><br>
+            <input type="text" id="provincia" name="provincia" value="Murcia"><br><br>
 
         </fieldset>
         <fieldset>
@@ -67,10 +70,10 @@
             <input type="text" id="ocupacion" name="ocupacion"><br><br>
 
             <label for="cuentas">¿Tienes otras cuentas bancarias?</label><br><br>
-            <input type="checkbox" id="cuentas" name="santander">Banco santander<br><br>
-            <input type="checkbox" id="cuentas" name="bilbao">Banco Bilbao Vizvaya<br><br>
-            <input type="checkbox" id="cuentas" name="abanca">Abanca<br><br>
-            <input type="checkbox" id="cuentas" name="otro">Otro<br><br>
+                <input type="checkbox" id="vizcaya" name="banco">Banco santander<br><br>
+            <input type="checkbox" id="bilbao" name="banco">Banco Bilbao Vizvaya<br><br>
+            <input type="checkbox" id="abanca" name="banco">Abanca<br><br>
+            <input type="checkbox" id="otro" name="banco">Otro<br><br>
 
         </fieldset>
         <fieldset>
@@ -87,10 +90,11 @@
         </fieldset>
 
         <label for="observaciones">Observaciones o Comentarios: </label><br><br>
-        <textarea id="observaciones" name="observaciones"></textarea>
+        <textarea id="observaciones" name="observaciones" placeholder="Escribe aquí cualquier comentario adicional..."></textarea>
 
-        <input type="submit" value="Enviar">
+        <input type="submit"  value="Enviar">
     </form>
+    </div>
 </body>
 
 </html>
