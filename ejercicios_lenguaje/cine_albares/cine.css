@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1a1a35;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+
+.menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.menu a {
+    background: linear-gradient(to right, #f39c12, #e67e22);
+    color: #000;
+    text-decoration: none;
+    padding: 8px 14px;
+    margin: 0 4px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid #f39c12;
+}
+
+.menu a:hover {
+    background: linear-gradient(to right, #e67e22, #d35400);
+    color: #000;
+    text-decoration: none;
+    padding: 8px 14px;
+    margin: 0 4px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid #f39c12;
+    ;
+}
+
+
+.cartelera-titulo {
+    text-align: center;
+    color: #f39c12;
+}
+
+
+.cartelera {
+    width: 80%;
+    margin: auto;
+}
+
+
+.carta {
+    background: #16213e;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20px;
+    border: 2px solid #533483;
+}
+
+.carta img {
+    height: 400px;
+    width: 270px;
+    border-radius: 8px;
+    margin-top: 80px;
+    margin-right: 200px;
+    float: left;
+    transition: transform 0.3s;
+}
+
+.carta img:hover {
+    transform: scale(1.1);
+    height: 400px;
+    width: 270px;
+    border-radius: 8px;
+    margin-top: 80px;
+    margin-right: 200px;
+    float: left;
+}
+
+.carta h3 {
+    color: #f39c12;
+}
+
+.director {
+    margin-top: 500px;
+    float: left;
+    border-radius: 8px;
+    border: 2px solid #f39c12;
+    border-top: #000;
+    border-bottom: #000;
+    border-right: #000;
+    padding: 5px;
+    background-color: #1a1a2e;
+}
+
+.año {
+    margin-top: 500px;
+    float: left;
+    border-radius: 8px;
+    border: 2px solid #f39c12;
+    border-top: #000;
+    border-bottom: #000;
+    border-right: #000;
+    padding: 5px;
+    background-color: #1a1a2e;
+}
+
+.info {
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sinopsis {
+    background: #1a1a2e;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #533483;
+    width: 600px;
+    height: 500px;
+}
+
+
+.sinopsis h4 {
+    color: #f39c12;
+}
+
+.sinopsis p strong {
+    color: #f39c12;
+}
+
+.director p {
+    font-size: 20px;
+    color: #f39c12;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse text-align: center;
+    margin: auto;
+}
+
+
+table td {
+    background: #34495e;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 2px;
+    border: 2px solid #f39c12;
+}
+
+.lleno:hover {
+    background: #f39c12;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 2px;
+    border: 2px solid #f39c12;
+}
+
+table th {
+    background: #f39c12;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 2px;
+    border: 2px solid #f39c12;
+}
+
+.cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0f3460;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.cookies p {
+    max-width: 900px;
+    margin: 0 auto 10px auto;
+    line-height: 1.4;
+}
+
+.cookies button {
+    background: #f39c12;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
